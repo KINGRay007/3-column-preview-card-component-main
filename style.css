@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    color: white;
+    Font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    line-height: 1.3rem;
+}
+
+.container{
+    margin: 14.5rem auto;
+    padding: 1rem 1rem 2rem;
+    width: 275px;
+    padding: 0px;
+    border-radius: 10px;
+    border: 1px solid;
+    overflow: hidden;
+}
+
+img{
+    margin-bottom: 35px;
+}
+
+.title {
+    margin-bottom: 35px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.description{
+    opacity: 70%;
+    font-weight: 400;
+}
+
+#con2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#con3{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.item{
+    background-color: hsl(31, 77%, 52%);
+    width: 275px;
+    height: auto;
+    padding: 30px;
+    font-weight: 400;
+    
+}
+
+button{
+    padding: 12px;
+    width: 120px;
+    margin-top: 55px;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+#btn{
+    color: hsl(31, 77%, 52%);
+}
+
+#btn:hover{
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+    border: 1px solid white;
+}
+
+#btn2{
+    color: hsl(184, 100%, 22%);
+}
+
+#btn2:hover{
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+    border: 1px solid white;
+}
+
+#btn3{
+    color: hsl(179, 100%, 13%);
+}
+
+#btn3:hover{
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+    border: 1px solid white;
+}
+
+.attribute {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(179, 100%, 13%);
+  }
+  
+  .attribute a {
+    color: hsl(179, 100%, 13%);
+    text-decoration: none;
+  }
+  
+  .attribute a:hover {
+    color: hsl(31, 77%, 52%);
+  }
+
+
+
+@media(min-width: 825px) {
+    .container{
+        display: flex;
+        width: 825px;
+        height: auto;
+    }
+}
